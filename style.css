@@ -1,12 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 .lw { font-size: 60px; }
 
 header {
     position: fixed;
-    background-color: rgb(200,200,200);
+    background-color: rgb(0,0,0);
     width: 96%;
     margin-top: -8px;
     margin-left: -8px;
     padding: 2vw;
     display: flex;
     align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    
+    Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+}
+.top-button {
+   font-size: 2vw;
+   height: 5.5vw;
+   width: 12vw;
+   text-align: center;
+   font-weight: bold;
+   font-family: "Exo 2";
+   color: white;
+   background-color: rgb(30,30,30);
+   border-radius: 3vw;
+}
+.title {
+    margin:0 2vw;
+    font-family: "Exo 2";
+    color: white;
+}
+.listings-area {
+    padding:10vw 2vw 2vw 2vw;
+    color: white;   
+    width: 99%;
+    background-color:rgb(30, 30,30);
+    margin: 0 -8px;
+}
+.listing-box {
+    background-color: rgb(50, 50, 50);
+    border-radius: 5vw;
+}
+.listing-container {
+    padding: 3vw;
+
+}
+.listing-image {
+    height: 200px;
+    width: 45%;
+    object-fit: cover;
+}
+.listing-right {
+    float: right;
+    size: 100px;
+    padding-right: 4vw;
+}
+.listing-title {
+    font-family: "Exo 2";
+    text-align: right;
+}
+.listing-description {
+    font-family: "Exo 2";
 }
