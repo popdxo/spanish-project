@@ -1,67 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
-.lw { font-size: 60px; }
+.lw {
+    font-size: 60px;
+}
+#logo {
+    height: 2.5vw;
+}
 
 header {
     position: fixed;
-    background-color: rgb(0,0,0);
-    width: 96%;
+    background-color: rgb(0, 0, 0);
+    width: 98%;
     margin-top: -8px;
+    padding: 1vw;
     margin-left: -8px;
-    padding: 2vw;
     display: flex;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', 
-    
-    Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     justify-content: space-between;
 }
 .top-button {
-   font-size: 2vw;
-   height: 5.5vw;
-   width: 12vw;
-   text-align: center;
-   font-weight: bold;
-   font-family: "Exo 2";
-   color: white;
-   background-color: rgb(30,30,30);
-   border-radius: 3vw;
-   padding: 0;
+    font-size: 1vw;
+    height: 2.5vw;
+    width: 8vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Exo 2";
+    color: white;
+    background-color: rgb(30, 30, 30);
+    border-radius: 2vw;
+    padding: 0;
 }
 .title {
-    margin:0 2vw;
+    margin: 0 2vw;
     font-family: "Exo 2";
+    font-size: 1.7vw;
     color: white;
 }
 .listings-area {
-    padding:10vw 2vw 2vw 2vw;
-    color: white;   
-    width: 99%;
-    background-color:rgb(30, 30,30);
+    padding: 5vw 2vw 2vw 2vw;
+    color: white;
+    width: 97%;
+    background-color: rgb(30, 30, 30);
     margin: 0 -8px;
 }
 .listing-box {
     background-color: rgb(50, 50, 50);
-    border-radius: 5vw;
+    border-radius: 1vw;
+    margin-bottom: 30px;
 }
 .listing-container {
     padding: 3vw;
-
 }
 .listing-image {
-    height: 200px;
+    height: 20vw;
     width: 45%;
     object-fit: cover;
 }
 .listing-right {
     float: right;
-    size: 100px;
-    padding-right: 4vw;
+    padding-right: 1vw;
 }
 .listing-title {
     font-family: "Exo 2";
+    font-size: 4vw;
     text-align: right;
 }
 .listing-description {
     font-family: "Exo 2";
+    font-size:2vw;
+    margin-top: -3vw;
+}
+.copbox {
+    float: right;   
+    background-color: lightskyblue;
+    font-family: "Exo 2";
+    font-size:2vw;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.category-page {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*height: 80vh;*/
+}
+.category-box {
+    background-color: rgb(50,50,50);
+    width: 30%;
+    text-align: center;
+    border-radius: 1vw;
+}
+.category-container {
+    padding: 3vw 1vw;
+    justify-content: center;
+}
+.category-name {
+    font-family: "Exo 2";
+    font-size: 2vw;
+}
+.category-image {
+    object-fit: cover;
+    align-self: center;
+    width: 25vw;
+    height: 27vw;
+    border-radius: 1vw;
+    margin: 0.5vw
+}
+.category-button {
+    background-color: black;
+    padding: .5vw;
+    color: white;
+    font-family: "Exo 2";
+    font-size: 1.5vw;
+    border-radius: 1vw
+}
+.box {
+    background-color: rgb(50,50,50);
+    width: 19%;
+    margin: 0.4vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+.container {
+    padding: 1.5vw .5vw;
+    justify-content: center;
+}
+.name {
+    font-family: "Exo 2";
+    font-size: 2vw;
+}
+.image {
+    object-fit: cover;
+    align-self: center;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 1vw;
+    margin: 0.5vw
+}
+.description {
+    font-size: 1vw;
+    font-family: "Exo 2";
+    padding-bottom: 0.5vw;
+}
+.buy-box {
+    background-color: lightskyblue;
+    font-family: "Exo 2";
+    font-size:1.5vw;
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 1vw;
+    padding: 0.5vw;
 }
