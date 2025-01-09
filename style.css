@@ -37,6 +37,17 @@ header {
     font-size: 1.7vw;
     color: white;
 }
+.head-info-box {
+    background-color: rgb(50, 50, 50);
+    border-radius: 1vw;
+    margin: 0 3vw;
+    margin-bottom: 30px;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: "Exo 2";
+    padding: 1vw;
+    font-weight: bold;
+}
 .listings-area {
     padding: 5vw 2vw 2vw 2vw;
     color: white;
@@ -50,7 +61,6 @@ header {
     margin-bottom: 30px;
     font-size: 1.5vw;
     font-family: "Exo 2";
-
 }
 .listing-container {
     padding: 3vw;
@@ -136,7 +146,7 @@ header {
 }
 .name {
     font-family: "Exo 2";
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 .image {
     object-fit: cover;
@@ -165,4 +175,28 @@ header {
     font-size: 1.5vw;
     font-family: "Exo 2";
     padding-bottom: 0.5vw;
+}
+.testimonial-container {
+    padding: 1.5vw .5vw;
+    justify-content: space-evenly;
+    display: flex;
+}
+.testimonial-box {
+    background-color: rgb(40,40,40);
+    width: 45%;
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.testimonial-text {
+    font-size: 2vw;
+    font-family: "Exo 2";
+    padding: 2vw;
+}
+.contact-container {
+    color: white;
+    font-size: 1vw;
+    margin: 1vw;
+    text-align: center;
 }
